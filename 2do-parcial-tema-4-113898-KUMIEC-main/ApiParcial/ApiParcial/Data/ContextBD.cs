@@ -25,7 +25,7 @@ public partial class ContextBD : DbContext
     public virtual DbSet<Usuario> Usuarios { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseNpgsql("Server=138.99.7.66;Port=5432;Database=prog3_aerolineas;User Id=prog3_viernes;Password=98745Tup");
+        => optionsBuilder.UseNpgsql("Server=138.99.7.66;Port=5432;Database=prog3_aerolineas;User Id=prog3_viernes;Password=123456Tup");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
